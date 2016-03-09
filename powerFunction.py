@@ -1,6 +1,6 @@
 #3/9
 
-'''Fuction raises the users inputted base to the power of the user entered base'''
+'''Fuction raises the base to the power of the exponent and returns the answer'''
 def power(base, exponent):
 	count = 1  #Variable will help indicate when to start and stop while loop
 	number = base
