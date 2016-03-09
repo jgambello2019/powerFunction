@@ -5,7 +5,10 @@ def power(base, exponent):
 	count = 1  #Variable will help indicate when to start and stop while loop
 	number = base
 	if exponent == 0: #Makes the answer 1 if the base is being raised to the 0th power
-		number = 1
+		if base != 0:
+			number = 1
+		else:
+			number = "Undefined. You broke the mathematical universe."
 	while count < exponent:
 		number *= base #Multiplies base by itself
 		count += 1
